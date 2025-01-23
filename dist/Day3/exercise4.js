@@ -20,5 +20,5 @@ const members = [
     largestNumber,
     mostBiglyNumber
 ];
-members[0] = '12345';
+members[0] = 12345;
 console.log(members);
