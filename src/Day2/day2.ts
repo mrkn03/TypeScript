@@ -26,13 +26,13 @@ enum Role {
     intern = 4
 }
 
-const user:Users = {
-    firstName: "Marcos",
-    age: 40,
-    role: Role.intern
-}
+// const user:Users = {
+//     firstName: "Marcos",
+//     age: 40,
+//     role: Role.intern
+// }
 
-console.log(user)
+// console.log(user)
 
 // Function return
 

@@ -52,9 +52,9 @@ type JobRole = {
     role: string
 }
 
-type Employee = Admin & JobRole
+type Employe = Admin & JobRole
 
-const employee: Employee = {
+const employe: Employe = {
     firstName: 'Marcos',
     role: 'Developer',
     id: 1,
