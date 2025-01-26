@@ -23,7 +23,7 @@ room.A17 = 'Jose'
 
 // Herança
 
-class Person {
+class uPerson {
     constructor(
         public firstName: string,
         public lastName: string,
@@ -35,13 +35,13 @@ class Person {
     }
 }
 
-class Clients extends Person{
+class Clients extends uPerson{
     override get greet(){
         return 'Dear ' + super.greet
     }
 }
 
-class Staff extends Person{
+class Staff extends uPerson{
     override get greet(){
         return 'Hi ' + super.greet
     }
